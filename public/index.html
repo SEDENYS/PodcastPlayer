@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PodcastPlayer</title>
+    <!-- PodcastPlayer favicon -->
+    <link rel="icon" type="image/png" href="favicon.png">
+    <!-- FontAwesome V5 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+     <div class="nav-wrapper">
+        <nav class="nav">
+            <h1 class="nav-title">Podcast Player</h1>
+            <i class="fas fa-microphone-alt"></i>
+        </nav>
+     </div>
+
+     <div class="page-wrapper">
+        <!-- Search Container -->
+         <div class="search-container">
+            <!-- Search History -->
+             <div class="custom-select">
+                <select name="searchHistory" id="searchHistory" title="Search History">
+                    <option value="">Select a Previous Search</option>
+                </select>
+             </div>
+             <!-- Search input -->
+            <input type="text" id="searchInput" placeholder="Search by Podcast / Topic">
+            <!-- Search Buttons -->
+             <div class="search-buttons">
+                <button type="button" id="searchButton">Search</button>
+                <button type="button" id="resetButton">Clear History</button>
+             </div>
+         </div>
+
+         <!-- Main Container -->
+          <div class="main-container">
+            <!-- Loader -->
+             <div class="loader-container">
+                <i class="fas fa-microphone-alt"></i>
+             </div>
+             <!-- Cards Container -->
+              <div class="cards-container">
+                <div class="card">
+                    <img src="./default-podcast.png" alt="Podcast Image">
+                    <div class="card-content">
+                        <h3>Podcast Title</h3>
+                        <p>dsadasdasdasd.   ddasdadsadad</p>
+                        <p class="episode-count">Episodes : asdasdasd</p>
+                        <p class="pub-date">Newest Episode: dadsasdad</p>
+                    </div>
+                </div>
+              </div>
+          </div>
+
+          <!-- Player Container -->
+           <div class="player-container">
+                <div class="player">
+
+                </div>
+
+                <div class="queue">
+
+                </div>
+           </div>
+     </div>
+    <!-- Script -->
+    <script src="script.js"></script>
+</body>
+</html>

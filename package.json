@@ -1,0 +1,25 @@
+{
+  "name": "podcastplayer",
+  "version": "1.0.0",
+  "description": "\"Podcast player to listen to podcasts\" ",
+  "homepage": "https://github.com/SEDENYS/PodcastPlayer#readme",
+  "bugs": {
+    "url": "https://github.com/SEDENYS/PodcastPlayer/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SEDENYS/PodcastPlayer.git"
+  },
+  "license": "ISC",
+  "author": "Denys",
+  "main": "script.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "crypto-js": "^4.2.0",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "node-fetch": "^2.7.0"
+  }
+}
