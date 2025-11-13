@@ -27,6 +27,7 @@ It also supports **PWA installation**, offline loading, and automatic progress s
 * **Episode Browser** — open any podcast to explore its episodes
 * **Audio Playback** — built-in player with play/pause, seeking, and skip
 * **Queue System** — add episodes and listen in order
+* **Favorites** — Mark podcasts with a star; favorites are stored locally.
 * **Progress Saving** — restores your last played episode and position
 * **PWA Installation** — install the app to your phone or desktop
 * **Offline Support** — Service Worker caches core assets
@@ -102,6 +103,7 @@ Render handles build & hosting automatically.
 3. Pick an episode → press Play
 4. Add episodes to your queue
 5. Install as PWA for a native-like feel
+6. Mark shows as favorites for quick access
 
 ---
 
