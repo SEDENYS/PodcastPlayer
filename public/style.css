@@ -30,10 +30,11 @@ body {
     margin: 0;
     margin-left: 25px;
     color: white;
+    cursor: pointer;
 }
 
 .nav-wrapper i {
-    color: #800b55;
+    color: #ca42a9;
     font-size: 25px;
     position: relative;
     top: -3px;

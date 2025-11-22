@@ -6,7 +6,7 @@
   <h1>Podcast Player</h1>
   <p>Your simple and clean web-based podcast player powered by Podcast Index.</p>
 
-  <a href="https://sedenys.github.io/PodcastPlayer/">
+  <a href="https://podcastplayer-otyd.onrender.com">
     <b>🌐 Live Demo</b>
   </a>
 </div>
